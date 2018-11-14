@@ -1,1 +1,5 @@
-*.DS_Store
+# Desktop Services Store
+.DS_Store
+
+# executable Java code
+*.class
