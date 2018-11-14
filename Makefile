@@ -12,7 +12,7 @@ CLASSES = interpreter/lox/Lox.java \
 					interpreter/lox/TokenType.java \
 					interpreter/lox/Token.java
 
-MAIN = Lox
+MAIN = interpreter/lox/Lox
 
 default: classes
 
@@ -22,4 +22,4 @@ run: $(MAIN).class
 	$(JVM) $(MAIN)
 
 clean:
-	$(RM) *.class
+	$(RM) interpreter/lox/*.class
